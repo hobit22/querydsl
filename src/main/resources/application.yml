@@ -15,4 +15,4 @@ spring:
 
 logging.level:
   org.hibernate.SQL: debug # logger 를 통해 hibernate 실행 SQL 을 남긴다
-#  org.hibernate.type: trace
+  org.hibernate.type: trace # binding parameter 를 볼 수 있는 옵션
